@@ -26,7 +26,9 @@ class AuthController {
         $user = $this->modelo->obtenerPorUsuario($usuario);
 
         // verifico que el usuario existe y que las contraseñas son iguales
-        if ($user && $contraseña == $user->Clave) {
+
+        if ($user && password_verify($contraseña,$user->Clave)) {
+
 
             // inicio una session para este usuario
             session_start();

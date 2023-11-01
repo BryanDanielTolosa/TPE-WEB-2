@@ -35,7 +35,9 @@ class CiudadController {
         if (isset($_POST['ciudad']) && $_POST['ciudad'] != "" && isset( $_POST['pais']) && $_POST['pais'] != "") {
             $this->modelo->insertarCiudad($_POST['ciudad'], $_POST['pais']);
         }
-        header("Location: " . BASE_URL);
+
+        header("Location: " . BASE_URL); // mandar a ciudades
+
     }
 
     public function Edit_Ciudad($id) {
