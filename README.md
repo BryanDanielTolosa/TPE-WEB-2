@@ -1,7 +1,5 @@
 ﻿Integrantes: Tolosa Bryan Daniel - Email: czsa156@gmail.com
 
-Tolosa Leon - Email:
-
 Tematica sobre Agencia de viajes
 
 primera tabla de ciudad y la segunda de cruceros
